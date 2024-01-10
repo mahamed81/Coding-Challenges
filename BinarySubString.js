@@ -10,7 +10,7 @@ const binarySubstring = (nums)=>{
     for(right; right<nums.length; right++){
 
             if(nums[right] ==='0'){
-                cur ++;
+                cur ++;    
             }
             while(cur>1){
                if(nums[left]==='0'){
@@ -25,8 +25,6 @@ const binarySubstring = (nums)=>{
         console.log(ans)
 
     return ans;
-    
 }
 
 binarySubstring("1101100111");
-numSubarrayProductLessThanK
